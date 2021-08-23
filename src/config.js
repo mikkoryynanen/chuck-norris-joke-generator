@@ -1,4 +1,4 @@
-const BASE_URL = 'http://api.icndb.com';
+const BASE_URL = 'https://api.icndb.com';
 const RANDOM_JOKE = `${BASE_URL}/jokes/random`;
 const RANDOM_JOKE_NON_EXPLICIT = `${RANDOM_JOKE}?exclude=[explicit]`;
 const CATEGORIES_URL = `${BASE_URL}/categories`;
