@@ -5,7 +5,7 @@ import LoadingIcon from '../components/LoadingIcon'
 
 import axios from 'axios'
 
-import { RANDOM_JOKE, RANDOM_JOKE_NON_EXPLICIT, CATEGORIES_URL } from '../config'
+import { RANDOM_JOKE, RANDOM_JOKE_NON_EXPLICIT } from '../config'
 
 const Joke = () => {
     const [joke, setJoke] = useState('');
